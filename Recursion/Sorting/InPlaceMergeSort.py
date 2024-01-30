@@ -52,6 +52,7 @@ class MergeSort:
             merged.append(arr[j])
             j += 1
 
+        # Replace the arr elment with the merged array element in correct position
         for i in range(len(merged)):
             arr[start1 + i] = merged[i]
 
